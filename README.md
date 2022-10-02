@@ -28,8 +28,16 @@ You can configure vaultie-talkie to do the following:
 
 ## Installation
 
+This will install the latest release under your `$GOBIN`.
+
 ```sh
-curl -L https://raw.githubusercontent.com/yashvardhan-kukreja/vaultie-talkie/main/scripts/install.sh | bash
+go install github.com/yashvardhan-kukreja/vaultie-talkie@latest
+```
+
+Make sure that your GOBIN is a part of you $PATH as well so as to be able to use this CLI, else run this:
+
+```sh
+export PATH="$GOBIN:$PATH"
 ```
 
 ## Usage
