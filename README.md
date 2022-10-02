@@ -222,6 +222,6 @@ make test
 
 ## Roadmap
 
-* [] Define cooler targets like slack, mail, etc.
-* [] Improve the docs (obviously) :3
-* [] Make this project compatible with watching other storage backends like Hashicorp Consul KV (long shot goal).
+* [ ] Define cooler targets like slack, mail, etc.
+* [ ] Improve the docs (obviously) :3
+* [ ] Make this project compatible with watching other storage backends like Hashicorp Consul KV (long shot goal).
